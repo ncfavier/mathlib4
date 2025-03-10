@@ -13,7 +13,7 @@ import Mathlib.CategoryTheory.Products.Basic
 A lax monoidal functor `F` between monoidal categories `C` and `D`
 is a functor between the underlying categories equipped with morphisms
 * `ε : 𝟙_ D ⟶ F.obj (𝟙_ C)` (called the unit morphism)
-* `μ X Y : (F.obj X) ⊗ (F.obj Y) ⟶ F.obj (X ⊗ Y)` (called the tensorator, or strength).
+* `μ X Y : (F.obj X) ⊗ (F.obj Y) ⟶ F.obj (X ⊗ Y)` (sometimes called the tensorator).
 satisfying various axioms. This is implemented as a typeclass `F.LaxMonoidal`.
 
 Similarly, we define the typeclass `F.OplaxMonoidal`. For these oplax monoidal functors,
