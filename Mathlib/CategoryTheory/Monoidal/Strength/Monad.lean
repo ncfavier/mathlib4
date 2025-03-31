@@ -65,7 +65,7 @@ class abbrev SymmetricStrongMonad [SymmetricCategory C] :=
   StrongMonad M, SymmetricStrong M.toFunctor
 
 /-!
-## Strong monads are lax idempotent functors
+## Strong monads are lax monoidal functors
 
 It is common knowledge in functional programming circles that every `Monad` is an
 `Applicative`. The mathematically precise version of this fact is that every strong
